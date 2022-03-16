@@ -16,6 +16,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    grid-area: na;
   }
   
   .navbar__container {
@@ -42,6 +43,7 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    
   }
   
   .navbar__menu {
@@ -155,51 +157,236 @@
     }
   }
   
-  /* Hero Section */
-  .hero {
-    background: url(../img/hus.jpg);
-    padding: 200px 0;
-    background-repeat: none;
-    background-size: 100%;
-    grid-area: h1;
-  }
-  
-  .hero__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 90%;
-    text-align: center;
-    padding: 30px;
-    background-image: url(../header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .hero__heading {
-    font-size: 100px;
-    margin-bottom: 24px;
-    color: #FFFDFC;
-  }
-  
-  .hero__heading span {
-    background: #fdd2c7;
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -mo-text-fill-color: transparent;
-  }
-  
-  @media screen and (max-width: 768px) {
+  /* Huvudsida Section */
+    
+    .hero {
+      background: url(../img/rosahus.jpg);
+      padding: 130px 0;
+      background-repeat: none;
+      background-size: 100%;
+      grid-area: he;
+    }
+    
+    .hero__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      height: 90%;
+      text-align: center;
+      padding: 30px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
     .hero__heading {
-      font-size: 60px;
+      font-size: 100px;
+      margin-bottom: 24px;
+      color: #FFFDFC;
+    }
+    
+    .hero__heading span {
+      background: #fdd2c7;
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -mo-text-fill-color: transparent;
+    }
+    
+    @media screen and (max-width: 768px) {
+      .hero__heading {
+        font-size: 60px;
+      }
+    
     }
   
-  }
+/* Att uppleva section */
+
+#wrapper_2 {
+    width: 100%;
+    height: 200%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px 500px;
+
+    grid-template-areas:
+        "h2 h2"
+        "a1 a2"
+        "a3 a4"
+    ;
+}
+
+#header_2 {
+    grid-area: h2;
+    background: rgb(189, 71, 153);
+    display: flex;
+}
+
+#attuppleva_1 {
+    grid-area: a1;
+    background: rgb(70, 62, 184);
+    display: flex;
+}
+
+#attuppleva_2 {
+    grid-area: a2;
+    background: rgb(180, 189, 56);
+    display: flex;
+}
+
+#attuppleva_3 {
+    grid-area: a3;
+    background: rgb(59, 180, 59);
+    display: flex;
+}
+
+#attuppleva_4 {
+    grid-area: a4;
+    background: rgb(197, 63, 63);
+    display: flex;
+}
+
+
+/* Res Hit section */
+
+#wrapper_3 {
+    width: 100%;
+    height: 200%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px 500px;
+
+    grid-template-areas:
+        "h2 h2"
+        "a1 a2"
+        "a3 a4"
+    ;
+}
+
+#header_3 {
+    grid-area: h2;
+    background: rgb(189, 71, 153);
+    display: flex;
+}
+
+#reshit_1 {
+    grid-area: a1;
+    background: rgb(70, 62, 184);
+    display: flex;
+}
+
+#reshit_2 {
+    grid-area: a2;
+    background: rgb(180, 189, 56);
+    display: flex;
+}
+
+#reshit_3 {
+    grid-area: a3;
+    background: rgb(59, 180, 59);
+    display: flex;
+}
+
+#reshit_4 {
+    grid-area: a4;
+    background: rgb(197, 63, 63);
+    display: flex;
+}
+
+/* Att äta section */
+
+#wrapper_4 {
+  width: 100%;
+  height: 200%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 500px 500px 500px;
+
+  grid-template-areas:
+      "h4 h4"
+      "t1 t2"
+      "t3 t4"
+  ;
+}
+
+#header_4 {
+  grid-area: h4;
+  background: rgb(189, 71, 153);
+  display: flex;
+}
+
+#attata_1 {
+  grid-area: t1;
+  background: rgb(70, 62, 184);
+  display: flex;
+}
+
+#attata_2 {
+  grid-area: t2;
+  background: rgb(180, 189, 56);
+  display: flex;
+}
+
+#attata_3 {
+  grid-area: t3;
+  background: rgb(59, 180, 59);
+  display: flex;
+}
+
+#attata_4 {
+  grid-area: t4;
+  background: rgb(197, 63, 63);
+  display: flex;
+}
+
+/* Att äta section */
+
+#wrapper_5 {
+  width: 100%;
+  height: 200%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 500px 500px 500px;
+
+  grid-template-areas:
+      "h5 h5"
+      "v1 v2"
+      "v3 v4"
+  ;
+}
+
+#header_5 {
+  grid-area: h5;
+  background: rgb(189, 71, 153);
+  display: flex;
+}
+
+#varastrander_1 {
+  grid-area: v1;
+  background: rgb(70, 62, 184);
+  display: flex;
+}
+
+#varastrander_2 {
+  grid-area: v2;
+  background: rgb(180, 189, 56);
+  display: flex;
+}
+
+#varastrander_3 {
+  grid-area: v3;
+  background: rgb(59, 180, 59);
+  display: flex;
+}
+
+#varastrander_4 {
+  grid-area: v4;
+  background: rgb(197, 63, 63);
+  display: flex;
+}
 
 /* Footer CSS */
 .footer__container {
