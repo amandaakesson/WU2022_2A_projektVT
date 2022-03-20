@@ -211,35 +211,39 @@
   
 /* Att uppleva section */
 
-.section_3 {
-  min-height: 100vh;
+.header_2 {
+  min-height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.container_3 {
-  width: 90%;
-  max-width: 1000px;
+.attuppleva_1 {
+  width: 100%;
+  height: 530px;
+  max-width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #131313;
+  background-color: #86B1CD;
 }
 
-.left {
-  width: 50%;
-  height: 600px;
+.left_21 {
+  width: 90%;
+  height: 500px;
   background: url(../img/hus.jpg) no-repeat center / cover;
   border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
-.right {
+.right_21 {
   width: 50%;
   min-height: 400px;
-  background-color: #707070;
+  background-color: #002F46;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -247,179 +251,399 @@
   border-radius: 8px;
   color: white;
   margin-left: -150px;
+  margin-right: 20px;
 }
 
-.right h1 {
+.right_21 h1 {
   font-size: 40px;
   font-weight: lighter;
 }
 
-.right p {
+.right_21 p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.attuppleva_2 {
+  width: 100%;
+  height: 530px;
+  max-width: 100%;
+  display: flex;
+}
+
+.left_22 {
+  width: 45%;
+  height: 300px;
+  background: url(../img/hus.jpg) no-repeat center / cover;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.right_22 {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(101, 189, 99);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 280px;
+  margin-left: ;
+}
+
+.left_23 {
+  width: 45%;
+  height: 300px;
+  background: url(../img/hus.jpg) no-repeat center / cover;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 100px;
+}
+
+.right_23 {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(189, 178, 99);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 280px;
+  margin-right: 40px;
+}
+
+.attuppleva_3 {
+  width: 100%;
+  height: 530px;
+  max-width: 100%;
+  display: flex;
+}
+
+.left_24 {
+  width: 45%;
+  height: 300px;
+  background: url(../img/hus.jpg) no-repeat center / cover;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.right_24 {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(113, 99, 189);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 270px;
+  margin-bottom: 20px;
+  margin-left: -45;
+}
+
+.left_25 {
+  width: 45%;
+  height: 300px;
+  background: url(../img/hus.jpg) no-repeat center / cover;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.right_25 {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(189, 99, 180);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 270px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .attuppleva_1 {
+    flex-direction: column;
+    width:100%;
+    height: 520px;
+    margin: 0 auto;
+  }
+
+  .left_21 {
+    width: 90%;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .right_21 {
+    width: 70%;
+    margin: 0;
+    min-height: 10px;
+    margin-top: -100px;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* Res Hit section */
+
+.header_3 {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reshit_1 {
+  width: 100%;
+  height: 530px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #86B1CD;
+}
+
+.left_31 {
+  width: 90%;
+  height: 500px;
+  background: url(../img/hus.jpg) no-repeat center / cover;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.right_31 {
+  width: 50%;
+  min-height: 400px;
+  background-color: #002F46;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  margin-left: -150px;
+  margin-right: 20px;
+}
+
+.right_31 h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.right_31 p {
   margin: 20px 0;
   font-weight: 500;
   line-height: 25px;
 }
 
 @media screen and (max-width: 768px) {
-  .container_3 {
+  .reshit_1 {
     flex-direction: column;
-    width: 100%;
-    margin: 0 20px;
+    width:100%;
+    height: 520px;
+    margin: 0 auto;
+
   }
 
-  .left {
-    width: 100%;
-    height: 400px;
-  }
-
-  .right {
+  .left_31 {
     width: 90%;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+
+  }
+
+  .right_31 {
+    width: 70%;
     margin: 0;
+    min-height: 10px;
     margin-top: -100px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Att äta section */
+
+.header_4 {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attata_1 {
+  width: 100%;
+  height: 530px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #86B1CD;
+}
+
+.left_41 {
+  width: 90%;
+  height: 500px;
+  background: url(../img/hus.jpg) no-repeat center / cover;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.right_41 {
+  width: 50%;
+  min-height: 400px;
+  background-color: #002F46;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  margin-left: -150px;
+  margin-right: 20px;
+}
+
+.right_41 h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.right_41 p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .attata_1 {
+    flex-direction: column;
+    width:100%;
+    height: 520px;
+    margin: 0 auto;
+
+  }
+
+  .left_41 {
+    width: 90%;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .right_41 {
+    width: 70%;
+    margin: 0;
+    min-height: 10px;
+    margin-top: -100px;
+    margin-bottom: 20px;
   }
 }
 
 
+/* Våra stränder section */
 
-
-
-/* Res Hit section */
-
-#wrapper_3 {
-    width: 100%;
-    height: 200%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 500px 500px 500px;
-
-    grid-template-areas:
-        "h2 h2"
-        "a1 a2"
-        "a3 a4"
-    ;
-}
-
-#header_3 {
-    grid-area: h2;
-    background: rgb(189, 71, 153);
-    display: flex;
-}
-
-#reshit_1 {
-    grid-area: a1;
-    background: rgb(70, 62, 184);
-    display: flex;
-}
-
-#reshit_2 {
-    grid-area: a2;
-    background: rgb(180, 189, 56);
-    display: flex;
-}
-
-#reshit_3 {
-    grid-area: a3;
-    background: rgb(59, 180, 59);
-    display: flex;
-}
-
-#reshit_4 {
-    grid-area: a4;
-    background: rgb(197, 63, 63);
-    display: flex;
-}
-
-/* Att äta section */
-
-#wrapper_4 {
+.header_5 {
+  min-height: 100%;
   width: 100%;
-  height: 200%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 500px 500px 500px;
-
-  grid-template-areas:
-      "h4 h4"
-      "t1 t2"
-      "t3 t4"
-  ;
-}
-
-#header_4 {
-  grid-area: h4;
-  background: rgb(189, 71, 153);
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#attata_1 {
-  grid-area: t1;
-  background: rgb(70, 62, 184);
-  display: flex;
-}
-
-#attata_2 {
-  grid-area: t2;
-  background: rgb(180, 189, 56);
-  display: flex;
-}
-
-#attata_3 {
-  grid-area: t3;
-  background: rgb(59, 180, 59);
-  display: flex;
-}
-
-#attata_4 {
-  grid-area: t4;
-  background: rgb(197, 63, 63);
-  display: flex;
-}
-
-/* Att äta section */
-
-#wrapper_5 {
+.varastrander_1 {
   width: 100%;
-  height: 200%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 500px 500px 500px;
-
-  grid-template-areas:
-      "h5 h5"
-      "v1 v2"
-      "v3 v4"
-  ;
-}
-
-#header_5 {
-  grid-area: h5;
-  background: rgb(189, 71, 153);
+  height: 530px;
+  max-width: 100%;
+  margin: 0 auto;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #86B1CD;
 }
 
-#varastrander_1 {
-  grid-area: v1;
-  background: rgb(70, 62, 184);
-  display: flex;
+.left_51 {
+  width: 90%;
+  height: 500px;
+  background: url(../img/hus.jpg) no-repeat center / cover;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
-#varastrander_2 {
-  grid-area: v2;
-  background: rgb(180, 189, 56);
+.right_51 {
+  width: 50%;
+  min-height: 400px;
+  background-color: #002F46;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  margin-left: -150px;
+  margin-right: 20px;
 }
 
-#varastrander_3 {
-  grid-area: v3;
-  background: rgb(59, 180, 59);
-  display: flex;
+.right_51 h1 {
+  font-size: 40px;
+  font-weight: lighter;
 }
 
-#varastrander_4 {
-  grid-area: v4;
-  background: rgb(197, 63, 63);
-  display: flex;
+.right_51 p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
 }
+
+@media screen and (max-width: 768px) {
+  .varastrander_1 {
+    flex-direction: column;
+    width:100%;
+    height: 520px;
+    margin: 0 auto;
+
+  }
+
+  .left_51 {
+    width: 90%;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .right_51 {
+    width: 70%;
+    margin: 0;
+    min-height: 10px;
+    margin-top: -100px;
+    margin-bottom: 20px;
+  }
+}
+
 
 /* Footer CSS */
 .footer__container {
