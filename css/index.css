@@ -43,7 +43,6 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
-    
   }
   
   .navbar__menu {
@@ -223,7 +222,6 @@
       align-items: center;
       justify-content: center;
       margin-top: 240px;
-      
     }
     
     .left_13 {
@@ -276,7 +274,6 @@
       align-items: center;
       justify-content: center;
       margin-top: 240px;
-      
     }
     
     .left_15 {
@@ -402,7 +399,6 @@
         margin-top: 150px;
         margin-bottom: 20px;
       }
-    
     }
   
 /* Att uppleva section */
@@ -489,7 +485,6 @@
   align-items: center;
   justify-content: center;
   margin-top: 240px;
-  
 }
 
 .left_23 {
@@ -543,7 +538,6 @@
   align-items: center;
   justify-content: center;
   margin-top: 240px;
-  
 }
 
 .left_25 {
@@ -617,7 +611,6 @@
     min-height: 10px;
     margin-top: 150px;
     margin-bottom: 20px;
-
   }
 
   .left_23 {
@@ -661,7 +654,6 @@
     min-height: 10px;
     margin-top: 150px;
     margin-bottom: 20px;
-
   }
 
   .left_25 {
@@ -897,7 +889,6 @@ a:hover {
     width:100%;
     height: 520px;
     margin: 0 auto;
-
   }
 
   .left_31 {
@@ -908,7 +899,6 @@ a:hover {
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 8px;
-
   }
 
   .right_31 {
@@ -1059,6 +1049,103 @@ a:hover {
   line-height: 25px;
 }
 
+.attata_2 {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  background: #F0F5F7;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 400px 400px;
+
+  grid-template-areas:
+      "f2 f3"
+      "f4 f5"
+      "f6 f7"
+  ;
+}
+
+.left_42 {
+  background: url(../img/hus.jpg) no-repeat center / cover;
+  height: 300px;
+  width: 80%;
+  grid-area: f2;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 auto;
+}
+
+.left_43 {
+  background: white;
+  height: 250px;
+  width: 70%;
+  grid-area: f3;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 auto;
+}
+
+.left_44 {
+  background: white;
+  height: 250px;
+  width: 70%;
+  grid-area: f4;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 auto;
+}
+
+.left_45 {
+  background: url(../img/hus.jpg) no-repeat center / cover;
+  height: 300px;
+  width: 80%;
+  grid-area: f5;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 auto;
+}
+
+.left_46 {
+  background: url(../img/hus.jpg) no-repeat center / cover;
+  height: 300px;
+  width: 80%;
+  grid-area: f6;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 auto;
+}
+
+.left_47 {
+  background: white;
+  height: 250px;
+  width: 70%;
+  grid-area: f7;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 auto;
+}
+
+
 @media screen and (max-width: 768px) {
   .attata_1 {
     flex-direction: column;
@@ -1083,6 +1170,55 @@ a:hover {
     min-height: 10px;
     margin-top: -100px;
     margin-bottom: 20px;
+  }
+
+  .attata_2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 300px 200px 320px 260px 250px;
+
+    grid-template-areas:
+        "f2"
+        "f3"
+        "f5"
+        "f4"
+        "f6"
+        "f7"
+  ;
+  }
+
+  .left_42 {
+    margin-top: 80px;
+  }
+
+  .left_43 {
+    height: ;
+    width: 60%;
+    margin-top: -100px;
+  }
+
+  .left_44 {
+    height: ;
+    width: 60%;
+    margin-top: -45px;
+    z-index: 1;
+  }
+
+  .left_45 {
+    height: ;
+    width: ;
+    margin-top: 30px;
+  }
+
+  .left_46 {
+    height: ;
+    width: ;
+    margin-top: ;
+  }
+
+  .left_47 {
+    height: ;
+    width: 60%;
+    margin-top: -100px;
   }
 }
 
@@ -1171,7 +1307,6 @@ a:hover {
   align-items: center;
   justify-content: center;
   margin-top: 240px;
-  
 }
 
 .left_53 {
@@ -1225,7 +1360,6 @@ a:hover {
   align-items: center;
   justify-content: center;
   margin-top: 240px;
-  
 }
 
 .left_55 {
@@ -1257,7 +1391,6 @@ a:hover {
     width:100%;
     height: 520px;
     margin: 0 auto;
-
   }
 
   .left_51 {
@@ -1277,7 +1410,7 @@ a:hover {
     margin-bottom: 20px;
   }
 
-  .varastrander_1 {
+  .varastrander_2 {
     height: 780px;
     flex-direction: column;
     width:100%;
@@ -1300,7 +1433,6 @@ a:hover {
     min-height: 10px;
     margin-top: 150px;
     margin-bottom: 20px;
-
   }
 
   .left_53 {
@@ -1321,8 +1453,8 @@ a:hover {
     margin-bottom: 20px;
   }
 
-  .varastrander_2 {
-    height: 750px;
+  .varastrander_3 {
+    height: 780px;
     flex-direction: column;
     width:100%;
     margin: 0 auto;
@@ -1331,7 +1463,7 @@ a:hover {
   .left_54 {
     width: 90%;
     height: 200px;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -1344,7 +1476,6 @@ a:hover {
     min-height: 10px;
     margin-top: 150px;
     margin-bottom: 20px;
-
   }
 
   .left_55 {
